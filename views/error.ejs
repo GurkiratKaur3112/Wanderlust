@@ -1,0 +1,18 @@
+
+<% layout("/layouts/boilerplate") %>
+<div class="alert alert-danger" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor" style="width: 24px; height: 24px;">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-11a1 1 0 112 0v4a1 1 0 11-2 0V7zm1 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+    </svg>
+    <h4 class="alert-message"><%= message || "An error occurred" %></h4>
+    <% if (typeof err !== 'undefined' && err.stack) { %>
+        <p><%= err.stack %></p>
+    <% } else { %>
+        <p>No additional error details available.</p>
+    <% } %>
+</div>
+
+
+
+
+
