@@ -75,7 +75,7 @@ Feel free to reach out for further assistance if needed. Enjoy exploring **Wande
 
 ### 🌐 [Live Demo](https://linktothewebsite.com)
 
-Explore the deployed project here: **Wanderlust Live Website**
+Explore the deployed project here: [**Wanderlust Live Website**](https://wanderlust-i1uy.onrender.com/listings)
 
 ### 🚀 Features
 
