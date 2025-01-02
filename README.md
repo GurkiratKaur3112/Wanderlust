@@ -24,7 +24,8 @@ git clone https://github.com/GurkiratKaur3112/Wanderlust.git
 Create a `.env` file in the project's root directory.
 
 Add the following line to configure the local MongoDB connection:
-ATLASDB_URL=mongodb://127.0.0.1:27017/wanderlust
+ATLASDB_URL=mongodb+srv://<your_username>:<your_password>@cluster0.mongodb.net/wanderlust?retryWrites=true&w=majority
+
 
 ### 3. Set Up Cloudinary
 
